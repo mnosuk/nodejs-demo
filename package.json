@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/nodemon app.js",
     "start": "node app.js"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/HBOTio/nodejs-demo#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
   }
 }
