@@ -27,7 +27,7 @@ $ docker run \
     sh -c "npm install; npm start"
 ```
 
-## Example
+## Usage
 
 For webhook verification
 
