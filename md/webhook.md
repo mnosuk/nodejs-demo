@@ -13,7 +13,7 @@ $ BROADCAST_API_TOKEN="YOUR_BROADCAST_API"
 $ npm start
 ```
 
-Start with server with docker:
+Start the server with docker:
 ```bash
 $ docker run \
     -it \
