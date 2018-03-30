@@ -83,7 +83,7 @@ $ docker run \
 
 ---
 
-### Node Type Text
+### Text
 
 ```json
 {
@@ -96,7 +96,7 @@ $ docker run \
 ```
 ---
 
-### Node Type Image
+### Image
 ```json
 {
 	"node_type":"node",
@@ -108,7 +108,7 @@ $ docker run \
 ```
 ---
 
-### Node Type Audio
+### Audio
 ```json
 {
   "node_type": "node",
@@ -120,7 +120,7 @@ $ docker run \
 ```
 ---
 
-### Node Type Video
+### Video
 ```json
 {
   "node_type": "node",
@@ -132,7 +132,7 @@ $ docker run \
 ```
 ---
 
-### Node Type File
+### File
 ```json
 {
   "node_type": "node",
@@ -144,7 +144,7 @@ $ docker run \
 ```
 ---
 
-### Node Type Carousel
+### Carousel
 ```json
 {
   "node_type": "carousel",
@@ -182,7 +182,7 @@ $ docker run \
 ---
 
 
-### Node Type Set Attributes
+### Set Attributes
 ```json
 {
   "node_type": "set_attr",
@@ -196,7 +196,7 @@ $ docker run \
 ---
 
 
-### Node Type Go To Block
+### Go To Block
 ```json
 {
   "node_type": "gotoblock",
