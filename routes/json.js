@@ -24,7 +24,7 @@ router.get('/', (req, resp) => {
     };
     nodes['nodes'].push(nodeText(message));
   
-    resp.send(nodes);
+    resp.json(nodes);
 })
 
 router.post('/', (req, resp) => {
@@ -38,7 +38,7 @@ router.post('/', (req, resp) => {
     };
     nodes['nodes'].push(nodeText(message));
   
-    resp.send(nodes);
+    resp.json(nodes);
 })
 
 function nodeText(text) {
