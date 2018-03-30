@@ -1,4 +1,5 @@
 const express = require('express')
+const bodyParser = require('body-parser')
 
 const broadcastRouter = require('./routes/broadcast.js')
 const jsonRouter = require('./routes/json.js')
@@ -6,6 +7,9 @@ const livechatRouter = require('./routes/livechat.js')
 const webhookRouter = require('./routes/webhook.js')
 
 const app = express()
+
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: false }))
 
 app.use('/broadcast', broadcastRouter)
 app.use('/json', jsonRouter)
