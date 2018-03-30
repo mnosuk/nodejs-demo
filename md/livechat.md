@@ -1,4 +1,4 @@
-# Broadcast API
+# Livechat API
 
 ## Quick Start
 
