@@ -216,3 +216,29 @@ Button has 2 types - `web_url` and `show_block` which specify on `type` attribut
     "block_ids": [BLOCK_A_ID, BLOCK_B_ID]
 }]
 ```
+
+## Usage
+
+|              |                                   |
+| ------------ | --------------------------------- |
+| path         | https://hbotconnect.unicornonzen.com/api/user/{USER ID}/send?accessToken={ACCESS TOKEN}&block_id={BLOCK ID}&{ATTR 1 NAME}={ATTR 1 VALUE}&{ATTR 2 NAME}={ATTR 2 VALUE}    |
+| method       | GET                               |
+| content-type | application/json                   |
+
+---
+
+## Example
+
+```json
+https://hbotconnect.unicornonzen.com/api/user/USER_12345678/send?accessToken=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&block_id=yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy&name=lukkiddd&age=30
+```
+
+| query        | value                                |
+| ------------ | ------------------------------------ |
+| USER ID      | USER_12345678                        |
+| accessToken  | xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx |
+| block_id     | yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy |
+| attr_1_name  | name                                 |
+| attr_1_value | lukkiddd                             |
+| attr_2_name  | age                                  |
+| attr_3_value | 30                                   |
