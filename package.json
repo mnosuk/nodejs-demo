@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/HBOTio/nodejs-demo#readme",
   "dependencies": {
+    "@google/chatbase": "^1.1.1",
+    "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
