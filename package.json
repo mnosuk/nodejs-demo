@@ -20,6 +20,7 @@
   "homepage": "https://github.com/HBOTio/nodejs-demo#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5"

@@ -1,5 +1,4 @@
 const express = require('express')
-const config = require('../config')
 
 const router = express.Router()
 
@@ -18,13 +17,13 @@ router.use((req, resp, next) => {
 
 // webhook verification 
 router.get('/', (req, resp) => {
-    console.log(`send broadcast_api_token : ${config.BROADCAST_API_TOKEN}`)
-    resp.send(config.BROADCAST_API_TOKEN)
+    console.log(`send broadcast_api_token : ${process.env.BROADCAST_API_TOKEN}`)
+    resp.send(process.env.BROADCAST_API_TOKEN)
 })
 
 // webhook incoming request
 router.post('/', (req, resp) => {
-    // do something
+    console.log('อิอิ', req)
 })
 
 module.exports = router

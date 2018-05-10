@@ -7,6 +7,7 @@ const livechatRouter = require('./routes/livechat.js')
 const webhookRouter = require('./routes/webhook.js')
 
 const app = express()
+require('dotenv').load()
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))

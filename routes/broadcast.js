@@ -2,7 +2,7 @@ const express = require('express')
 const request = require('request-promise-native')
 const router = express.Router()
 
-const { BROADCAST_API_TOKEN } = require('../config.js')
+const { BROADCAST_API_TOKEN } = process.env
 
 router.get('/send', async (req, res) => {
     const userId = req.query.userId
